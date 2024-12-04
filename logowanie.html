@@ -15,13 +15,14 @@
 
     <div class="container">
       <h1>Logowanie</h1>
-      <form>
+      <form action="login.php" method="POST">
         <div class="form-group">
           <label for="username">Nazwa użytkownika</label>
           <input
             type="text"
             class="form-control"
             id="username"
+            name="username"
             placeholder="Wprowadź nazwę użytkownika"
           />
         </div>
@@ -31,6 +32,7 @@
             type="password"
             class="form-control"
             id="password"
+            name="password"
             placeholder="Wprowadź hasło"
           />
         </div>
@@ -42,9 +44,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="template.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            loadNavbar();
-        });
+      document.addEventListener("DOMContentLoaded", function () {
+        loadNavbar();
+      });
     </script>
   </body>
 </html>
