@@ -12,10 +12,10 @@ function loadNavbar(isProjectPage = false) {
                     <a class="nav-link" href="${prefix}page1.html">Hardware</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${prefix}page2.html">Podstrona 2</a>
+                    <a class="nav-link" href="${prefix}page2.html">Software</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${prefix}page3.html">Podstrona 3</a>
+                    <a class="nav-link" href="${prefix}page3.html">Projcets</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="${prefix}page4.html">Podstrona 4</a>
