@@ -24,8 +24,7 @@ h2 {
   box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
 }
 
-.btn-primary,
-.btn-primary:focus {
+.btn-primary {
   background-color: rgba(0, 255, 0, 0.562);
   border-color: rgba(0, 255, 0, 0.438);
   color: #000000;
@@ -169,3 +168,8 @@ label {
   margin-top: 10px;
 }
 
+.btn btn-primary {
+  background-color: #00ff00;
+  border-color: #000000;
+  color: 000000;
+}
