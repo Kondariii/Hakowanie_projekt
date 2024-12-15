@@ -138,7 +138,7 @@ label {
 .collapse.show {
   border-top: 1px solid #00ff00;
 }
-/* Contact section styles */
+
 .contact-section {
   padding: 30px;
   border-top: 1px solid #00ff00;
@@ -177,9 +177,3 @@ label {
   transform: scale(0.98);
 }
 
-.btn-link:active,
-.btn-link:focus {
-  color: #00ff00 !important;
-  text-shadow: 0 0 15px #00ff00;
-  background-color: rgba(0, 255, 0, 0.1);
-}
