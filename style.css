@@ -177,3 +177,34 @@ label {
   transform: scale(0.98);
 }
 
+
+/* Add these styles to your existing style.css */
+.account-container {
+    background-color: #0f0f0f;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+}
+
+.user-info {
+    background-color: #0a0a0a;
+    border: 1px solid #00ff00;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.user-info p {
+    color: #00ff00;
+    margin: 15px 0;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+}
+
+.user-info strong {
+    color: #ffffff;
+    text-shadow: 0 0 10px #00ff00;
+    margin-right: 10px;
+}

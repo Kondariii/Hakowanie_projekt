@@ -26,10 +26,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->bindParam(':username', $username);
             $stmt->bindParam(':password_hash', $password_hash);
             $stmt->bindParam(':email', $email);
-
             $stmt->execute();
 
-            header("Location: index.html");
+            session_start();
+            $_SESSION['user_id'] = $conn->lastInsertId();
+            header("Location: account.php");
             exit;
         } catch (PDOException $e) {
             if ($e->getCode() == 23000) {
