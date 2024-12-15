@@ -24,7 +24,8 @@ h2 {
   box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:focus {
   background-color: rgba(0, 255, 0, 0.562);
   border-color: rgba(0, 255, 0, 0.438);
   color: #000000;
