@@ -4,9 +4,10 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: index.html");
     exit;
 }
+$port = '3306';
 $host = 'mysql.railway.internal';
 $user = 'root';
-$password = 'ybJRTgmmMqBzeyNdOamHELvzSryiCgcd';
+$password = 'OanPmCffCrLWxrDwTwSXJbCAujOyxuxG';
 $dbname = 'railway';
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
