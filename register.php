@@ -1,7 +1,8 @@
 <?php
+$port = '3306';
 $host = 'mysql.railway.internal';
 $user = 'root';
-$password = 'ybJRTgmmMqBzeyNdOamHELvzSryiCgcd';
+$password = 'OanPmCffCrLWxrDwTwSXJbCAujOyxuxG';
 $dbname = 'railway';
 
 try {
