@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; 
-$user = 'root';      
-$password = '';      
-$dbname = 'hack';    
+$host = 'mysql.railway.internal';
+$user = 'root';
+$password = 'ybJRTgmmMqBzeyNdOamHELvzSryiCgcd';
+$dbname = 'railway';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
