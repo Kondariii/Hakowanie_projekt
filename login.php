@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
+$host = 'mysql.railway.internal';
 $user = 'root';
-$password = '';
-$dbname = 'hack';
+$password = 'ybJRTgmmMqBzeyNdOamHELvzSryiCgcd';
+$dbname = 'railway';
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
